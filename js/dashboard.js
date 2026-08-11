@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded',()=>{document.querySelectorAll('.bar').forEach((b,i)=>{b.style.height=`${35+(i*17)%58}%`});document.querySelectorAll('[data-progress]').forEach(p=>p.querySelector('i').style.width=p.dataset.progress+'%')});
